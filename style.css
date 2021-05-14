@@ -1,0 +1,380 @@
+/*=================================================*/
+/*General*/
+/*=================================================*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+.btn {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 14px 75px;
+    text-decoration: none;
+}
+
+.circle-btn {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    background-color: #000;
+    border-radius: 50%;
+    min-width: 50px;
+    min-height: 50px;
+    text-decoration: none;
+    position: relative;
+}
+
+.circle-btn > img {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 6px);
+}
+
+.plus-btn {
+    margin-top: 36px;
+    margin-bottom: 54px;
+}
+
+.plus-btn > img {
+    left: calc(50% - 10px) !important; 
+}
+
+/*=================================================*/
+/*header*/
+/*=================================================*/
+
+header {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 8px 0; 
+}
+
+/*=================================================*/
+/*Demo Section*/
+/*=================================================*/
+
+#demo {
+    background-color: #E9E9E9;
+    text-align: center;
+}
+
+#demo > article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#demoDesc {
+    text-align: right;
+    width: 580px;
+    order: 2;
+}
+
+#demoDesc > h1 {
+    font-size: 44px;
+}
+
+#demoDesc > p {
+    color: #636363;
+    margin-bottom: 63px;
+    display: block;
+    margin-top: 0px;
+    width: 400px;
+    float: right;
+}
+
+#demoDesc > p {
+    width: 480px;
+}
+
+#demoImg {
+    order: 1;
+    margin-top: 95px;
+    margin-bottom: 65px;
+}
+
+/*=================================================*/
+/*Services Section*/
+/*=================================================*/
+#services > article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+#services > article > .service-item {
+    flex: 1;
+    max-width: 15%;
+    text-align: center;
+    margin: 0 80px;
+}
+
+#services > article > .service-item > h5 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color:#222222;
+}
+
+#services > article > .service-item > p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #636363;
+}
+
+/*=================================================*/
+/*Category Section*/
+/*=================================================*/
+#category {    
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#category > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#category > article > .category-item {
+    flex: 49%;
+    margin: 5px;
+    position: relative;
+    max-width: 50%;
+}
+
+#category > article > .category-item > h4 {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color:#000;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 40px;
+    text-align: left;
+}
+
+#category > article > .category-item > img {
+    width: 100%;
+}
+
+/*=================================================*/
+/*Promo Sectoin*/
+/*=================================================*/
+#promo {
+    max-width: 100%;
+}
+
+#promo > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#promo > article > .promo-item {
+    flex: 1;
+    margin: 4px;
+    position: relative;
+    width: 50%;
+}
+
+#promo > article > .promo-item > p {
+    max-width: 220px;
+    margin: 0 auto 50px auto;
+    color: #636363;
+}
+
+#promo > article > .promo-item > .img-bg {
+    max-height: 392px;
+}
+
+/*=================================================*/
+/*More Promo Sectoin*/
+/*=================================================*/
+#more-promo {
+    max-width: 100%;
+    margin: 80px 0;
+}
+
+#more-promo > article {
+    display: flex;
+    position: relative;
+}
+
+#more-promo > article > .more-desc {
+    position: absolute;
+    padding: 45px 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    left: 15%;
+    top: calc(50% - 155px);
+}
+
+#more-promo > article > .more-desc > h5 {
+    font-size: 18px;
+}
+
+#more-promo > article > .more-desc > p {
+    width: 220px;
+    margin: 0 auto 54px auto;
+}
+
+#more-promo > article > .left {
+    flex: 2;
+    width: 30%;
+    margin-right: 10px;
+}
+
+#more-promo > article > .right {
+    flex: 3;
+    width: 70%;
+}
+
+
+/*=================================================*/
+/*Testimonial*/
+/*=================================================*/
+
+#testimonial {
+    text-align: center;
+}
+
+#testimonial > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#testimonial > article > .content {
+    padding: 100px 120px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    margin: 0 40px;
+}
+
+/*=================================================*/
+/*Community*/
+/*=================================================*/
+#community {
+    text-align: center;
+}
+
+#community > h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+#community > article {
+    display: flex;
+}
+
+#community > article > .mainSection {
+    flex: 2;
+    width: 40%
+}
+
+#community > article > .mainSection > img {
+    width: 96%;
+}
+
+#community > article > .subSection {
+    flex: 3;
+    width: 60%;
+    flex-flow: row wrap;
+}
+
+#community > article > .subSection > img {
+    flex: 1;
+    width: 32%;
+}
+
+/*=================================================*/
+/*Socials*/
+/*=================================================*/
+
+#socials {
+    background-color: #f2f2f2;
+}
+
+#socials > article {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#socials > article > h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#socials > article > p {
+    max-width: 30%;
+    margin: 0 auto 45px auto;
+}
+
+#socials > article > .socials-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+#socials > article > .socials-list > .socials-item {
+    flex: 1;
+    max-width: 15%;
+    text-align: center;
+    margin: 0 80px;
+}
+
+#socials > article > .socials-list > .socials-item > h5 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color:#222222;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#socials > article > .socials-list > .socials-item > p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #636363;
+    margin-top: 0;
+}
+
+
+/*=================================================*/
+/*Awards*/
+/*=================================================*/
+
+#awards {
+    text-align: center;
+    margin: 45px auto;
+}
+
+/*=================================================*/
+/*Footer*/
+/*=================================================*/
+footer {
+    background-color: #000;
+}
